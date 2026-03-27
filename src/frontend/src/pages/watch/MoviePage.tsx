@@ -1,7 +1,7 @@
 // pages/MoviePage.tsx
 import { useParams } from "react-router-dom"
 import { useTmdb } from "@/components/providers/tmdb-provider.tsx"
-import { useOmssClient } from "@omss/sdk"
+import { useOmss } from "@/components/providers/omss-provider.tsx"
 import { useEffect, useState } from "react"
 import { toast } from "sonner"
 import type { MovieDetailsWithAppends } from "@lorenzopant/tmdb"
@@ -15,7 +15,7 @@ type MovieFull = MovieDetailsWithAppends<["credits", "videos", "images", "releas
 export default function MoviePage() {
     const { id } = useParams<{ id: string }>()
     const tmdb = useTmdb()
-    const omss = useOmssClient()
+    const omss = useOmss()
 
     const [movie, setMovie] = useState<MovieFull | null>(null)
     const [movieLoading, setMovieLoading] = useState(true)
