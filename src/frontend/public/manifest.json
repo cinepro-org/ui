@@ -1,0 +1,15 @@
+{
+    "theme_color": "#ea383e",
+    "background_color": "#6b6b6b",
+    "icons": [
+        { "purpose": "maskable", "sizes": "512x512", "src": "icon512_maskable.png", "type": "image/png" },
+        { "purpose": "any", "sizes": "512x512", "src": "icon512_rounded.png", "type": "image/png" }
+    ],
+    "orientation": "any",
+    "display": "standalone",
+    "dir": "auto",
+    "lang": "en-US",
+    "name": "CinePro/ui",
+    "short_name": "CinePro",
+    "description": "CinePro Frontend is a modern web app for browsing and streaming movies and TV shows directly in your browser using HLS playback powered by CinePro Core."
+}

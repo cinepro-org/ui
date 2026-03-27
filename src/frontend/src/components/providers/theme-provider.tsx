@@ -1,4 +1,4 @@
-/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable */
 import * as React from "react"
 
 type Theme = "dark" | "light" | "system"
@@ -52,6 +52,7 @@ function disableTransitionsTemporarily() {
     }
 }
 
+// @ts-ignore
 function isEditableTarget(target: EventTarget | null) {
     if (!(target instanceof HTMLElement)) {
         return false
@@ -122,6 +123,7 @@ export function ThemeProvider({ children, defaultTheme = "system", storageKey = 
         }
     }, [theme, applyTheme])
 
+    /* disable switching theme with "d" key
     React.useEffect(() => {
         const handleKeyDown = (event: KeyboardEvent) => {
             if (event.repeat) {
@@ -154,6 +156,7 @@ export function ThemeProvider({ children, defaultTheme = "system", storageKey = 
             window.removeEventListener("keydown", handleKeyDown)
         }
     }, [storageKey])
+    */
 
     React.useEffect(() => {
         const handleStorageChange = (event: StorageEvent) => {

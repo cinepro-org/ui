@@ -149,7 +149,7 @@ function CarouselPrevious({ className, variant = "outline", size = "icon-sm", ..
             onClick={scrollPrev}
             {...props}
         >
-            <ChevronLeftIcon />
+            <ChevronLeftIcon className="cn-rtl-flip" />
             <span className="sr-only">Previous slide</span>
         </Button>
     )
@@ -172,10 +172,11 @@ function CarouselNext({ className, variant = "outline", size = "icon-sm", ...pro
             onClick={scrollNext}
             {...props}
         >
-            <ChevronRightIcon />
+            <ChevronRightIcon className="cn-rtl-flip" />
             <span className="sr-only">Next slide</span>
         </Button>
     )
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export { type CarouselApi, Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext, useCarousel }

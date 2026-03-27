@@ -2,7 +2,7 @@
     "files": [],
     "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
     "compilerOptions": {
-        "strict": true, 
+        "strict": true,
         "baseUrl": ".",
         "paths": {
             "@/*": ["./src/*"]

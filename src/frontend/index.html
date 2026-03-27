@@ -2,12 +2,49 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>CinePro/ui</title>
+        <meta name="theme-color" content="#ea383e" />
+        <meta name="color-scheme" content="dark light" />
+        <meta name="referrer" content="origin" />
+        <meta name="robots" content="all" />
+
+        <title>CinePro — Stream Movies & TV Shows in Your Browser</title>
+        <meta name="description" content="CinePro Frontend is a modern web app for browsing and streaming movies and TV shows directly in your browser using HLS playback powered by CinePro Core." />
+        <meta name="keywords" content="movies, free, online, no-ads, tv shows, streaming, HLS player, CinePro, React video player, ArtPlayer, Vidstack" />
+        <meta name="author" content="CinePro Foundation" />
+
+        <meta property="og:title" content="CinePro - Stream Movies & TV Shows for Free Online without ads" />
+        <meta property="og:description" content="Browse and stream movies and TV shows directly in your browser with CinePro." />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="/og-image.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="CinePro — Stream Movies & TV Shows" />
+        <meta name="twitter:description" content="A modern streaming interface powered by CinePro Core." />
+        <meta name="twitter:image" content="/og-image.png" />
+
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="apple-touch-icon" href="/icon512_rounded.png" />
+
+        <link rel="dns-prefetch" href="https://api.themoviedb.org" />
+        <link rel="dns-prefetch" href="https://image.tmdb.org" />
+
+        <link rel="manifest" href="/manifest.json" />
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <meta name="robots" content="index, follow" />
     </head>
+
     <body>
-        <div id="root"></div>
+        <noscript>
+            <strong style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: red; display: flex; min-width: 100vw; min-height: 100vh; justify-content: center; align-items: center">
+                CinePro requires JavaScript to run. Please enable it in your browser.
+            </strong>
+        </noscript>
+
+        <div id="root" role="main"></div>
+
         <script type="module" src="/src/main.tsx"></script>
     </body>
 </html>
