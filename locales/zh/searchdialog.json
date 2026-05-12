@@ -1,0 +1,11 @@
+{
+    "placeholder": "搜索电影或电视剧……",
+    "emptyIdle": "让原力引导你的搜索……",
+    "emptyNoResults": "嗯……迷失了……结果，未找到",
+    "quoteAuthor": "- 尤达",
+    "groups": {
+        "movies": "电影",
+        "tv": "电视剧"
+    },
+    "fallbackDate": "—"
+}

@@ -1,0 +1,36 @@
+{
+    "projectName": "CinePro/ui",
+    "authors": "CinePro 재단",
+    "coreName": "CinePro/Core",
+    "notFound": {
+        "title": "404 - 음... 길을 잃으셨군요",
+        "description": "이 페이지는 존재하지 않습니다",
+        "quoteAuthor": "- 요다",
+        "backLink": "홈으로 돌아가기"
+    },
+    "all": "전체",
+    "results": "결과",
+    "pages": "페이지",
+    "slogan": "나만의 오픈 시네마",
+    "loading": "불러오는 중",
+    "welcome": "{{projectName}}에 오신 것을 환영합니다!",
+    "opensource": {
+        "git-url": "https://github.com/cinepro-org/ui",
+        "git-platform": "GitHub"
+    },
+    "movie": {
+        "singular": "영화",
+        "plural": "영화 목록"
+    },
+    "tvShow": {
+        "singular": "TV 프로그램",
+        "plural": "TV 프로그램 목록"
+    },
+    "home": "홈",
+    "settings": "설정",
+    "disclaimer": {
+        "label": "면책 조항",
+        "value": "{{projectName}}은(는) 영화 및 TV 프로그램 스트리밍을 위한 사용자 인터페이스를 제공하는 무료 오픈 소스 프로젝트입니다. 자체적으로 콘텐츠를 호스팅하지 않으며, 실제 스트리밍 서비스를 제공하기 위해 OMSS 구현체(예: {{coreName}})가 필요합니다. {{projectName}}은(는) 교육 및 개인 목적으로만 사용하도록 설계되었으며, 상업적 목적으로 사용해서는 안 됩니다. 사용자는 스트리밍 콘텐츠 이용과 관련된 모든 관련 법률 및 규정을 준수할 책임이 있습니다.",
+        "button": "홈으로 돌아가기"
+    }
+}

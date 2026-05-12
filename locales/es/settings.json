@@ -1,0 +1,79 @@
+{
+    "title": "Configuración",
+    "tabs": {
+        "general": "General",
+        "history": "Historial",
+        "playback": "Reproducción",
+        "omss": "OMSS",
+        "tmdb": "TMDB"
+    },
+    "general": {
+        "title": "General",
+        "description": "Preferencias básicas de la aplicación",
+        "language": {
+            "cardlabel": "Idioma de la aplicación",
+            "selectlabel": "Idiomas disponibles",
+            "placeholder": "Seleccionar idioma",
+            "info": "Estamos trabajando en traducir la aplicación a más idiomas. Si estás interesado en ayudarnos, considera contribuir a nuestros esfuerzos de traducción en {{gitUrl}}."
+        },
+        "reset": {
+            "title": "¿Restablecer todos los datos de la aplicación?",
+            "description": "Esto eliminará TODOS los datos almacenados (configuración, historial, etc.). Esta acción no se puede deshacer.",
+            "button": "Restablecer aplicación",
+            "label": "Eliminar todos los datos de este sitio",
+            "info": "Esto eliminará todos los datos de este sitio y te dará un comienzo limpio."
+        }
+    },
+    "history": {
+        "title": "Historial de visualización",
+        "description": "Películas y episodios vistos recientemente",
+        "clear": {
+            "title": "¿Borrar historial de visualización?",
+            "description": "Esto eliminará permanentemente todo tu historial de visualización.",
+            "button": "Borrar"
+        },
+        "empty": {
+            "title": "Sin historial aún",
+            "description": "Empieza a ver algo y aparecerá aquí."
+        },
+        "item": {
+            "removeTitle": "¿Eliminar elemento?",
+            "removeDescription": "Esto eliminará este elemento de tu historial.",
+            "removeButton": "Eliminar"
+        }
+    },
+    "playback": {
+        "title": "Reproducción",
+        "description": "Controlar el comportamiento de reproducción",
+        "autoplayNext": {
+            "label": "Reproducción automática del siguiente episodio",
+            "description": "Reproducir automáticamente el siguiente episodio cuando esté disponible"
+        }
+    },
+    "omss": {
+        "title": "Servidor OMSS ({{coreName}})",
+        "description": "Configuración del backend de streaming",
+        "label": "URL de la API OMSS ({{coreName}})",
+        "note": {
+            "title": "Nota CSP",
+            "value": "Si ejecutas la aplicación en modo fullstack (es decir, con el backend de fastify) y configuras la variable de entorno VITE_OMSS_API_URL, el sitio web no podrá realizar solicitudes a ningún otro sitio que no sea TMDB y la OMSS_API_URL que hayas proporcionado."
+        },
+        "connection": {
+            "connected": "¡Conectado!",
+            "disconnected": "¡Desconectado!"
+        },
+        "info": "`localhost` significa que tu servidor OMSS se está ejecutando localmente y solo para ti."
+    },
+    "tmdb": {
+        "title": "TMDB",
+        "description": "Integración con TMDB",
+        "apiKey": "Clave API de TMDB (requerida)",
+        "info": "Esto solo puede cambiarse reconstruyendo la aplicación con la nueva clave API",
+        "region": {
+            "cardlabel": "Región",
+            "selectlabel": "Regiones",
+            "placeholder": "Seleccionar región",
+            "info": "Cambiará la sección \"Tendencias\" de TMDB, etc., a tu región seleccionada. {{projectName}} intenta detectar tu región según la configuración de tu navegador. Probablemente no necesites cambiar esto."
+        }
+    }
+}

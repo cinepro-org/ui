@@ -1,0 +1,12 @@
+{
+    "tagline": "La tua destinazione definitiva per film e serie. Guarda film e serie TV online gratuitamente senza pubblicità né tracciamento!",
+    "cookie-policy": {
+        "label": "Cookie Policy",
+        "value": "Non utilizziamo né raccogliamo alcun tipo di cookie o altri dati di telemetria. 💪"
+    },
+    "links": {
+        "git": "Repository GitHub",
+        "about": "Informazioni sul Progetto",
+        "report-issue": "Segnala un Problema"
+    }
+}

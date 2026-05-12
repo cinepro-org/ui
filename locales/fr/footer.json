@@ -1,0 +1,12 @@
+{
+    "tagline": "Votre destination ultime pour les films et les séries. Regardez films et séries en ligne gratuitement, sans publicités ni traçage !",
+    "cookie-policy": {
+        "label": "Politique de cookies",
+        "value": "Nous n'utilisons ni ne collectons aucun type de cookies ou autre donnée de télémétrie. 💪"
+    },
+    "links": {
+        "git": "Dépôt GitHub",
+        "about": "À propos du projet",
+        "report-issue": "Signaler un problème"
+    }
+}

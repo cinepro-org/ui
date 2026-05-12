@@ -10,10 +10,36 @@
     "display": "standalone",
     "display_override": ["window-controls-overlay", "standalone", "minimal-ui", "browser"],
     "orientation": "any",
-    "theme_color": "#ea383e",
-    "background_color": "#141414",
+    "theme_color": "#212121",
+    "background_color": "#212121",
     "categories": ["entertainment", "video", "streaming"],
     "thumbnail": "favicon.svg",
+    "screenshots": [
+        {
+            "src": "/images/home.png",
+            "sizes": "1920x1440",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/images/phone.png",
+            "sizes": "1920x1440",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/images/drawer.png",
+            "sizes": "1920x1440",
+            "type": "image/png",
+            "form_factor": "wide"
+        },
+        {
+            "src": "/images/player.png",
+            "sizes": "1920x1440",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+    ],
     "icons": [
         {
             "src": "favicon.svg",

@@ -1,0 +1,43 @@
+{
+    "controls": {
+        "play": "Abspielen",
+        "pause": "Pause",
+        "mute": "Stummschalten",
+        "unmute": "Stummschaltung aufheben",
+        "fullscreen": "Vollbild",
+        "exitFullscreen": "Vollbild beenden",
+        "settings": "Einstellungen",
+        "subtitles": "Untertitel",
+        "audio": "Audiospuren",
+        "quality": "Qualität",
+        "source": "Quelle",
+        "back": "10 Sekunden zurückspringen",
+        "forward": "10 Sekunden vorwärts springen",
+        "volume": "Lautstärke"
+    },
+    "states": {
+        "loading": "Medien werden geladen...",
+        "buffering": "Puffern...",
+        "resolving": "Quellen werden aufgelöst...",
+        "resolvingSub": "Einen Moment bitte. Je länger dies dauert, desto mehr Quellen stehen dir zur Verfügung!",
+        "error": "Beim Abspielen der Medien ist ein Fehler aufgetreten"
+    },
+    "selectors": {
+        "subtitlesOff": "Aus",
+        "selectSource": "Quelle auswählen",
+        "sourceNumber": "Quelle {{number}}"
+    },
+    "autoplay": {
+        "nextEpisode": "Nächste Episode in",
+        "playingNow": "Wird jetzt abgespielt",
+        "cancel": "Abbrechen"
+    },
+    "settings": {
+        "tabs": {
+            "source": "Quelle",
+            "subtitles": "Untertitel",
+            "audio": "Audio"
+        },
+        "noAudioTracks": "Keine Audiospuren verfügbar"
+    }
+}

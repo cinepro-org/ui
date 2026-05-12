@@ -1,0 +1,12 @@
+{
+    "tagline": "Dein ultimatives Ziel für Filme und Serien. Schau Filme und Serien kostenlos online – ohne Werbung oder Tracking!",
+    "cookie-policy": {
+        "label": "Cookie-Richtlinie",
+        "value": "Wir verwenden/sammeln keinerlei Cookies oder andere Telemetriedaten. 💪"
+    },
+    "links": {
+        "git": "GitHub-Repository",
+        "about": "Über das Projekt",
+        "report-issue": "Problem melden"
+    }
+}

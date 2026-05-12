@@ -1,0 +1,43 @@
+{
+    "controls": {
+        "play": "चलाएं",
+        "pause": "रोकें",
+        "mute": "म्यूट करें",
+        "unmute": "अनम्यूट करें",
+        "fullscreen": "फ़ुलस्क्रीन",
+        "exitFullscreen": "फ़ुलस्क्रीन से बाहर निकलें",
+        "settings": "सेटिंग्स",
+        "subtitles": "उपशीर्षक",
+        "audio": "ऑडियो ट्रैक",
+        "quality": "गुणवत्ता",
+        "source": "स्रोत",
+        "back": "10 सेकंड पीछे जाएं",
+        "forward": "10 सेकंड आगे जाएं",
+        "volume": "वॉल्यूम"
+    },
+    "states": {
+        "loading": "मीडिया लोड हो रहा है...",
+        "buffering": "बफ़र हो रहा है...",
+        "resolving": "स्रोत हल किए जा रहे हैं...",
+        "resolvingSub": "थोड़ा धैर्य रखें। इसमें जितना अधिक समय लगेगा, उतने अधिक स्रोत आपको मिलेंगे!",
+        "error": "मीडिया चलाते समय एक त्रुटि हुई"
+    },
+    "selectors": {
+        "subtitlesOff": "बंद",
+        "selectSource": "स्रोत चुनें",
+        "sourceNumber": "स्रोत {{number}}"
+    },
+    "autoplay": {
+        "nextEpisode": "अगला एपिसोड",
+        "playingNow": "अभी चल रहा है",
+        "cancel": "रद्द करें"
+    },
+    "settings": {
+        "tabs": {
+            "source": "स्रोत",
+            "subtitles": "उपशीर्षक",
+            "audio": "ऑडियो"
+        },
+        "noAudioTracks": "कोई ऑडियो ट्रैक उपलब्ध नहीं है"
+    }
+}

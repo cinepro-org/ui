@@ -1,0 +1,43 @@
+{
+    "controls": {
+        "play": "播放",
+        "pause": "暂停",
+        "mute": "静音",
+        "unmute": "取消静音",
+        "fullscreen": "全屏",
+        "exitFullscreen": "退出全屏",
+        "settings": "设置",
+        "subtitles": "字幕",
+        "audio": "音频轨道",
+        "quality": "画质",
+        "source": "来源",
+        "back": "后退 10 秒",
+        "forward": "前进 10 秒",
+        "volume": "音量"
+    },
+    "states": {
+        "loading": "正在加载媒体……",
+        "buffering": "正在缓冲……",
+        "resolving": "正在解析来源……",
+        "resolvingSub": "请稍候。等待时间越长，获得的来源越多！",
+        "error": "播放媒体时发生错误"
+    },
+    "selectors": {
+        "subtitlesOff": "关闭",
+        "selectSource": "选择来源",
+        "sourceNumber": "来源 {{number}}"
+    },
+    "autoplay": {
+        "nextEpisode": "下一集将在",
+        "playingNow": "正在播放",
+        "cancel": "取消"
+    },
+    "settings": {
+        "tabs": {
+            "source": "来源",
+            "subtitles": "字幕",
+            "audio": "音频"
+        },
+        "noAudioTracks": "暂无可用音频轨道"
+    }
+}

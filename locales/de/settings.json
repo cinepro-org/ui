@@ -1,0 +1,79 @@
+{
+    "title": "Einstellungen",
+    "tabs": {
+        "general": "Allgemein",
+        "history": "Verlauf",
+        "playback": "Wiedergabe",
+        "omss": "OMSS",
+        "tmdb": "TMDB"
+    },
+    "general": {
+        "title": "Allgemein",
+        "description": "Grundlegende App-Einstellungen",
+        "language": {
+            "cardlabel": "App-Sprache",
+            "selectlabel": "Verfügbare Sprachen",
+            "placeholder": "Sprache auswählen",
+            "info": "Wir arbeiten daran, die App in weitere Sprachen zu übersetzen. Falls du uns dabei helfen möchtest, kannst du gerne zu unseren Übersetzungsbemühungen unter {{gitUrl}} beitragen."
+        },
+        "reset": {
+            "title": "Alle App-Daten zurücksetzen?",
+            "description": "Dies löscht ALLE gespeicherten Daten (Einstellungen, Verlauf usw.). Dies kann nicht rückgängig gemacht werden.",
+            "button": "App zurücksetzen",
+            "label": "Alle Daten von dieser Seite entfernen",
+            "info": "Dies entfernt alle Daten von dieser Seite und gibt dir einen sauberen Neustart."
+        }
+    },
+    "history": {
+        "title": "Wiedergabeverlauf",
+        "description": "Zuletzt angesehene Filme und Episoden",
+        "clear": {
+            "title": "Wiedergabeverlauf löschen?",
+            "description": "Dies entfernt deinen gesamten Wiedergabeverlauf dauerhaft.",
+            "button": "Löschen"
+        },
+        "empty": {
+            "title": "Noch kein Verlauf",
+            "description": "Fang an, etwas zu schauen, und es wird hier erscheinen."
+        },
+        "item": {
+            "removeTitle": "Eintrag entfernen?",
+            "removeDescription": "Dies entfernt diesen Eintrag aus deinem Verlauf.",
+            "removeButton": "Entfernen"
+        }
+    },
+    "playback": {
+        "title": "Wiedergabe",
+        "description": "Wiedergabeverhalten steuern",
+        "autoplayNext": {
+            "label": "Nächste Episode automatisch abspielen",
+            "description": "Nächste Episode automatisch abspielen, wenn verfügbar"
+        }
+    },
+    "omss": {
+        "title": "OMSS-Server ({{coreName}})",
+        "description": "Konfiguration des Streaming-Backends",
+        "label": "OMSS ({{coreName}}) API-URL",
+        "note": {
+            "title": "CSP-Hinweis",
+            "value": "Wenn du die App als Fullstack betreibst (d. h. mit dem Fastify-Backend) und die Umgebungsvariable VITE_OMSS_API_URL gesetzt hast, kann die Website nur noch Anfragen an TMDB und die von dir angegebene OMSS_API_URL stellen."
+        },
+        "connection": {
+            "connected": "Verbunden!",
+            "disconnected": "Getrennt!"
+        },
+        "info": "`localhost` bedeutet, dass dein OMSS-Server lokal und nur für dich läuft."
+    },
+    "tmdb": {
+        "title": "TMDB",
+        "description": "TMDB-Integration",
+        "apiKey": "TMDB API-Schlüssel (erforderlich)",
+        "info": "Dies kann nur durch einen Neuaufbau der Anwendung mit dem neuen API-Schlüssel geändert werden",
+        "region": {
+            "cardlabel": "Region",
+            "selectlabel": "Regionen",
+            "placeholder": "Region auswählen",
+            "info": "Ändert TMDBs Abschnitt \"Jetzt im Trend\" usw. auf deine gewählte Region. {{projectName}} versucht, deine Region anhand deiner Browser-Einstellungen zu ermitteln. Du musst dies wahrscheinlich nicht ändern."
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "title": "설정",
+    "tabs": {
+        "general": "일반",
+        "history": "시청 기록",
+        "playback": "재생",
+        "omss": "OMSS",
+        "tmdb": "TMDB"
+    },
+    "general": {
+        "title": "일반",
+        "description": "기본 애플리케이션 환경 설정",
+        "language": {
+            "cardlabel": "앱 언어",
+            "selectlabel": "사용 가능한 언어",
+            "placeholder": "언어 선택",
+            "info": "저희는 더 많은 언어로 앱을 번역하는 작업을 진행 중입니다. 번역에 기여하고 싶으시다면 {{gitUrl}}에서 번역 작업에 참여해 주세요."
+        },
+        "reset": {
+            "title": "모든 앱 데이터를 초기화하시겠습니까?",
+            "description": "이 작업은 저장된 모든 데이터(설정, 기록 등)를 삭제합니다. 이 작업은 되돌릴 수 없습니다.",
+            "button": "앱 초기화",
+            "label": "이 사이트에서 모든 데이터 삭제",
+            "info": "이 작업은 이 사이트의 모든 데이터를 삭제하고 초기 상태로 되돌립니다."
+        }
+    },
+    "history": {
+        "title": "시청 기록",
+        "description": "최근 시청한 영화 및 에피소드",
+        "clear": {
+            "title": "시청 기록을 지우시겠습니까?",
+            "description": "이 작업은 전체 시청 기록을 영구적으로 삭제합니다.",
+            "button": "삭제"
+        },
+        "empty": {
+            "title": "아직 기록이 없습니다",
+            "description": "무언가를 시청하기 시작하면 여기에 표시됩니다."
+        },
+        "item": {
+            "removeTitle": "항목을 삭제하시겠습니까?",
+            "removeDescription": "이 항목이 시청 기록에서 삭제됩니다.",
+            "removeButton": "삭제"
+        }
+    },
+    "playback": {
+        "title": "재생",
+        "description": "재생 동작 제어",
+        "autoplayNext": {
+            "label": "다음 에피소드 자동 재생",
+            "description": "다음 에피소드가 있을 때 자동으로 재생합니다"
+        }
+    },
+    "omss": {
+        "title": "OMSS 서버 ({{coreName}})",
+        "description": "스트리밍 백엔드 구성",
+        "label": "OMSS ({{coreName}}) API URL",
+        "note": {
+            "title": "CSP 참고 사항",
+            "value": "앱을 풀스택(예: Fastify 백엔드 포함)으로 실행하고 VITE_OMSS_API_URL 환경 변수를 설정한 경우, 웹사이트는 TMDB 및 설정된 OMSS_API_URL 이외의 다른 사이트로는 요청을 보낼 수 없습니다."
+        },
+        "connection": {
+            "connected": "연결됨!",
+            "disconnected": "연결 끊김!"
+        },
+        "info": "`localhost`는 OMSS 서버가 로컬에서 실행 중이며 본인만 사용할 수 있음을 의미합니다."
+    },
+    "tmdb": {
+        "title": "TMDB",
+        "description": "TMDB 통합",
+        "apiKey": "TMDB API 키 (필수)",
+        "info": "새 API 키로 애플리케이션을 다시 빌드해야만 변경할 수 있습니다",
+        "region": {
+            "cardlabel": "지역",
+            "selectlabel": "지역 목록",
+            "placeholder": "지역 선택",
+            "info": "TMDB의 \"지금 인기 있는 콘텐츠\" 섹션 등을 선택한 지역에 맞게 변경합니다. {{projectName}}은(는) 브라우저 설정을 기반으로 지역을 자동으로 감지하려 시도합니다. 대부분의 경우 변경할 필요가 없습니다."
+}
+}
+}

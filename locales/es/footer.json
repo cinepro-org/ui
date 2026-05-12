@@ -1,0 +1,12 @@
+{
+    "tagline": "Tu destino definitivo para películas y series. ¡Mira películas y series online gratis, sin anuncios ni rastreo!",
+    "cookie-policy": {
+        "label": "Política de cookies",
+        "value": "No utilizamos ni recopilamos ningún tipo de cookies u otros datos de telemetría. 💪"
+    },
+    "links": {
+        "git": "Repositorio de GitHub",
+        "about": "Acerca del proyecto",
+        "report-issue": "Reportar un problema"
+    }
+}

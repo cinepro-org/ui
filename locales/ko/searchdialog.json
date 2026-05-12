@@ -1,0 +1,11 @@
+{
+    "placeholder": "영화 또는 TV 프로그램 검색...",
+    "emptyIdle": "포스가 당신의 검색을 인도하게 하십시오...",
+    "emptyNoResults": "음... 길을 잃으셨군요... 결과를 찾을 수 없습니다",
+    "quoteAuthor": "- 요다",
+    "groups": {
+        "movies": "영화",
+        "tv": "TV 프로그램"
+    },
+    "fallbackDate": "—"
+}

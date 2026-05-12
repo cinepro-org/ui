@@ -1,0 +1,11 @@
+{
+    "placeholder": "Filme oder Serien suchen...",
+    "emptyIdle": "Lass die Macht deine Suche leiten...",
+    "emptyNoResults": "Hmm... Verloren bist du... Gefunden, Ergebnisse sind nicht",
+    "quoteAuthor": "- Yoda",
+    "groups": {
+        "movies": "Filme",
+        "tv": "Serien"
+    },
+    "fallbackDate": "—"
+}

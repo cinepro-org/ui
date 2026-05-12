@@ -1,0 +1,36 @@
+{
+    "projectName": "CinePro/ui",
+    "authors": "CinePro Foundation",
+    "coreName": "CinePro/Core",
+    "notFound": {
+        "title": "404 - Mmmhh... Perduto sei",
+        "description": "Trovata, questa pagina non è",
+        "quoteAuthor": "- Yoda",
+        "backLink": "Torna alla Home"
+    },
+    "all": "Tutti",
+    "results": "Risultati",
+    "pages": "Pagine",
+    "slogan": "Il tuo Cinema Aperto",
+    "loading": "Caricamento",
+    "welcome": "Benvenuto su {{projectName}}!",
+    "opensource": {
+        "git-url": "https://github.com/cinepro-org/ui",
+        "git-platform": "GitHub"
+    },
+    "movie": {
+        "singular": "Film",
+        "plural": "Film"
+    },
+    "tvShow": {
+        "singular": "Serie TV",
+        "plural": "Serie TV"
+    },
+    "home": "Home",
+    "settings": "Impostazioni",
+    "disclaimer": {
+        "label": "Disclaimer",
+        "value": "{{projectName}} è un progetto gratuito e open-source che fornisce un'interfaccia utente per lo streaming di film e serie TV. Non ospita alcun contenuto direttamente, ma richiede un'implementazione OMSS (come {{coreName}}) per fornire i servizi di streaming effettivi. {{projectName}} è destinato esclusivamente a uso educativo e personale e non deve essere utilizzato per scopi commerciali. Gli utenti sono responsabili di garantire la conformità con tutte le leggi e normative applicabili riguardanti l'uso dei contenuti in streaming.",
+        "button": "Torna alla Home"
+    }
+}

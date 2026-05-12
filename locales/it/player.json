@@ -1,0 +1,43 @@
+{
+    "controls": {
+        "play": "Riproduci",
+        "pause": "Pausa",
+        "mute": "Silenzia",
+        "unmute": "Riattiva audio",
+        "fullscreen": "Schermo intero",
+        "exitFullscreen": "Esci dallo schermo intero",
+        "settings": "Impostazioni",
+        "subtitles": "Sottotitoli",
+        "audio": "Tracce audio",
+        "quality": "Qualità",
+        "source": "Sorgente",
+        "back": "Torna indietro di 10 secondi",
+        "forward": "Vai avanti di 10 secondi",
+        "volume": "Volume"
+    },
+    "states": {
+        "loading": "Caricamento media...",
+        "buffering": "Buffering...",
+        "resolving": "Ricerca delle sorgenti...",
+        "resolvingSub": "Ancora un po'. Più tempo ci vuole, più sorgenti avrai!",
+        "error": "Si è verificato un errore durante la riproduzione del media"
+    },
+    "selectors": {
+        "subtitlesOff": "Disattivati",
+        "selectSource": "Seleziona sorgente",
+        "sourceNumber": "Sorgente {{number}}"
+    },
+    "autoplay": {
+        "nextEpisode": "Prossimo episodio tra",
+        "playingNow": "In riproduzione",
+        "cancel": "Annulla"
+    },
+    "settings": {
+        "tabs": {
+            "source": "Sorgente",
+            "subtitles": "Sottotitoli",
+            "audio": "Audio"
+        },
+        "noAudioTracks": "Nessuna traccia audio disponibile"
+    }
+}

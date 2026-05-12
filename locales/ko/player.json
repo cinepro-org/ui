@@ -1,0 +1,43 @@
+{
+    "controls": {
+        "play": "재생",
+        "pause": "일시 정지",
+        "mute": "음소거",
+        "unmute": "음소거 해제",
+        "fullscreen": "전체 화면",
+        "exitFullscreen": "전체 화면 종료",
+        "settings": "설정",
+        "subtitles": "자막",
+        "audio": "오디오 트랙",
+        "quality": "화질",
+        "source": "소스",
+        "back": "10초 뒤로",
+        "forward": "10초 앞으로",
+        "volume": "볼륨"
+    },
+    "states": {
+        "loading": "미디어 불러오는 중...",
+        "buffering": "버퍼링 중...",
+        "resolving": "소스 확인 중...",
+        "resolvingSub": "잠시만 기다려 주세요. 시간이 걸릴수록 더 많은 소스를 사용할 수 있습니다!",
+        "error": "미디어 재생 중 오류가 발생했습니다"
+    },
+    "selectors": {
+        "subtitlesOff": "끄기",
+        "selectSource": "소스 선택",
+        "sourceNumber": "소스 {{number}}"
+    },
+    "autoplay": {
+        "nextEpisode": "다음 에피소드까지",
+        "playingNow": "현재 재생 중",
+        "cancel": "취소"
+    },
+    "settings": {
+        "tabs": {
+            "source": "소스",
+            "subtitles": "자막",
+            "audio": "오디오"
+        },
+        "noAudioTracks": "사용 가능한 오디오 트랙이 없습니다"
+    }
+}
