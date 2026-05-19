@@ -2,10 +2,26 @@
     "title": "Settings",
     "tabs": {
         "general": "General",
+        "appearance": "Appearance",
         "history": "History",
         "playback": "Playback",
         "omss": "OMSS",
         "tmdb": "TMDB"
+    },
+    "appearance": {
+        "title": "Appearance",
+        "description": "Customize the look and feel of the app",
+        "theme": {
+            "label": "Theme",
+            "info": "Choose between light and dark mode",
+            "light": "Light",
+            "dark": "Dark",
+            "system": "System"
+        },
+        "colorTheme": {
+            "label": "Color Theme",
+            "info": "Pick an accent color for the interface"
+        }
     },
     "general": {
         "title": "General",
