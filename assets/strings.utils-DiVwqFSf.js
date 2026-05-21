@@ -1,0 +1,1 @@
+const n=e=>e&&e.length>0?e.charAt(0).toUpperCase()+e.slice(1).toLowerCase():"",o=(e,t=5)=>{if(!e)return"";const r=e.slice(0,t),a="*".repeat(Math.max(0,e.length-t));return r+a};function s(e){return e=e.trim().toLowerCase(),e=e.replace(/p+$/,"p"),e=e.replace(/k+p+$/,"k"),/^\d+$/.test(e)?`${e}p`:n(e)}export{o as m,s as n};

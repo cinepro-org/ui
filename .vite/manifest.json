@@ -31,38 +31,35 @@
     "file": "assets/manrope-vietnamese-wght-normal-usUDDRr7.woff2",
     "src": "../../node_modules/@fontsource-variable/manrope/files/manrope-vietnamese-wght-normal.woff2"
   },
-  "_MediaWatchPage-B-4xDQNA.js": {
-    "file": "assets/MediaWatchPage-B-4xDQNA.js",
+  "_MediaWatchPage-DetvlwoR.js": {
+    "file": "assets/MediaWatchPage-DetvlwoR.js",
     "name": "MediaWatchPage",
     "imports": [
       "index.html",
-      "_strings.utils-CfGIKKbT.js"
+      "_strings.utils-DiVwqFSf.js"
     ]
   },
-  "_TypedRails-BPr7sxhi.js": {
-    "file": "assets/TypedRails-BPr7sxhi.js",
+  "_TypedRails-CLM04uf-.js": {
+    "file": "assets/TypedRails-CLM04uf-.js",
     "name": "TypedRails",
     "imports": [
       "index.html",
-      "_card-DOCEAZDc.js"
+      "_card-BHy7WWKg.js"
     ]
   },
-  "_card-DOCEAZDc.js": {
-    "file": "assets/card-DOCEAZDc.js",
+  "_card-BHy7WWKg.js": {
+    "file": "assets/card-BHy7WWKg.js",
     "name": "card",
     "imports": [
       "index.html"
     ]
   },
-  "_strings.utils-CfGIKKbT.js": {
-    "file": "assets/strings.utils-CfGIKKbT.js",
-    "name": "strings.utils",
-    "imports": [
-      "index.html"
-    ]
+  "_strings.utils-DiVwqFSf.js": {
+    "file": "assets/strings.utils-DiVwqFSf.js",
+    "name": "strings.utils"
   },
   "index.html": {
-    "file": "assets/index-C_wVfQwX.js",
+    "file": "assets/index-qhFbV7ZD.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -77,7 +74,7 @@
       "src/pages/disclaimer/Disclaimer.tsx"
     ],
     "css": [
-      "assets/index-BMaNHYXc.css"
+      "assets/index-CF_JyR9L.css"
     ],
     "assets": [
       "assets/geist-cyrillic-wght-normal-CHSlOQsW.woff2",
@@ -91,7 +88,7 @@
     ]
   },
   "src/pages/404/NotFound.tsx": {
-    "file": "assets/NotFound-BWBkqHhQ.js",
+    "file": "assets/NotFound-DRD30ZC5.js",
     "name": "NotFound",
     "src": "src/pages/404/NotFound.tsx",
     "isDynamicEntry": true,
@@ -100,7 +97,7 @@
     ]
   },
   "src/pages/disclaimer/Disclaimer.tsx": {
-    "file": "assets/Disclaimer-ICH1rTCp.js",
+    "file": "assets/Disclaimer-B0mtxn1G.js",
     "name": "Disclaimer",
     "src": "src/pages/disclaimer/Disclaimer.tsx",
     "isDynamicEntry": true,
@@ -109,69 +106,69 @@
     ]
   },
   "src/pages/home/Home.tsx": {
-    "file": "assets/Home-DyGStQCd.js",
+    "file": "assets/Home-CvzaJB2n.js",
     "name": "Home",
     "src": "src/pages/home/Home.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_TypedRails-BPr7sxhi.js",
-      "_card-DOCEAZDc.js"
+      "_TypedRails-CLM04uf-.js",
+      "_card-BHy7WWKg.js"
     ]
   },
   "src/pages/movies/Movies.tsx": {
-    "file": "assets/Movies-KazWXwGT.js",
+    "file": "assets/Movies-D6odS5Uo.js",
     "name": "Movies",
     "src": "src/pages/movies/Movies.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_TypedRails-BPr7sxhi.js",
-      "_card-DOCEAZDc.js"
+      "_TypedRails-CLM04uf-.js",
+      "_card-BHy7WWKg.js"
     ]
   },
   "src/pages/settings/Settings.tsx": {
-    "file": "assets/Settings-CcxxVAP8.js",
+    "file": "assets/Settings-BnqgEgRj.js",
     "name": "Settings",
     "src": "src/pages/settings/Settings.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_card-DOCEAZDc.js",
-      "_strings.utils-CfGIKKbT.js"
+      "_card-BHy7WWKg.js",
+      "_strings.utils-DiVwqFSf.js"
     ]
   },
   "src/pages/shows/Shows.tsx": {
-    "file": "assets/Shows-B4oShzpE.js",
+    "file": "assets/Shows-DY_BMNcV.js",
     "name": "Shows",
     "src": "src/pages/shows/Shows.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_TypedRails-BPr7sxhi.js",
-      "_card-DOCEAZDc.js"
+      "_TypedRails-CLM04uf-.js",
+      "_card-BHy7WWKg.js"
     ]
   },
   "src/pages/watch/movie/WatchMoviePage.tsx": {
-    "file": "assets/WatchMoviePage-DZnPtNyY.js",
+    "file": "assets/WatchMoviePage-CZbJEF5i.js",
     "name": "WatchMoviePage",
     "src": "src/pages/watch/movie/WatchMoviePage.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_MediaWatchPage-B-4xDQNA.js",
-      "_strings.utils-CfGIKKbT.js"
+      "_MediaWatchPage-DetvlwoR.js",
+      "_strings.utils-DiVwqFSf.js"
     ]
   },
   "src/pages/watch/tv/WatchTvPage.tsx": {
-    "file": "assets/WatchTvPage-maHuJtA4.js",
+    "file": "assets/WatchTvPage-DLlqP_0Z.js",
     "name": "WatchTvPage",
     "src": "src/pages/watch/tv/WatchTvPage.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_MediaWatchPage-B-4xDQNA.js",
-      "_strings.utils-CfGIKKbT.js"
+      "_MediaWatchPage-DetvlwoR.js",
+      "_strings.utils-DiVwqFSf.js"
     ]
   }
 }
