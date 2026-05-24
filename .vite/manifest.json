@@ -1,15 +1,23 @@
 {
+  "../../node_modules/@fontsource-variable/geist/files/geist-cyrillic-ext-wght-normal.woff2": {
+    "file": "assets/geist-cyrillic-ext-wght-normal-DjL33-gN.woff2",
+    "src": "../../node_modules/@fontsource-variable/geist/files/geist-cyrillic-ext-wght-normal.woff2"
+  },
   "../../node_modules/@fontsource-variable/geist/files/geist-cyrillic-wght-normal.woff2": {
-    "file": "assets/geist-cyrillic-wght-normal-CHSlOQsW.woff2",
+    "file": "assets/geist-cyrillic-wght-normal-BEAKL7Jp.woff2",
     "src": "../../node_modules/@fontsource-variable/geist/files/geist-cyrillic-wght-normal.woff2"
   },
   "../../node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2": {
-    "file": "assets/geist-latin-ext-wght-normal-DMtmJ5ZE.woff2",
+    "file": "assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2",
     "src": "../../node_modules/@fontsource-variable/geist/files/geist-latin-ext-wght-normal.woff2"
   },
   "../../node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2": {
-    "file": "assets/geist-latin-wght-normal-Dm3htQBi.woff2",
+    "file": "assets/geist-latin-wght-normal-BgDaEnEv.woff2",
     "src": "../../node_modules/@fontsource-variable/geist/files/geist-latin-wght-normal.woff2"
+  },
+  "../../node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2": {
+    "file": "assets/geist-vietnamese-wght-normal-6IgcOCM7.woff2",
+    "src": "../../node_modules/@fontsource-variable/geist/files/geist-vietnamese-wght-normal.woff2"
   },
   "../../node_modules/@fontsource-variable/manrope/files/manrope-cyrillic-wght-normal.woff2": {
     "file": "assets/manrope-cyrillic-wght-normal-Dvxsihut.woff2",
@@ -31,24 +39,24 @@
     "file": "assets/manrope-vietnamese-wght-normal-usUDDRr7.woff2",
     "src": "../../node_modules/@fontsource-variable/manrope/files/manrope-vietnamese-wght-normal.woff2"
   },
-  "_MediaWatchPage-DetvlwoR.js": {
-    "file": "assets/MediaWatchPage-DetvlwoR.js",
+  "_MediaWatchPage-CLlH1g-T.js": {
+    "file": "assets/MediaWatchPage-CLlH1g-T.js",
     "name": "MediaWatchPage",
     "imports": [
       "index.html",
       "_strings.utils-DiVwqFSf.js"
     ]
   },
-  "_TypedRails-CLM04uf-.js": {
-    "file": "assets/TypedRails-CLM04uf-.js",
+  "_TypedRails-CgY-PiVk.js": {
+    "file": "assets/TypedRails-CgY-PiVk.js",
     "name": "TypedRails",
     "imports": [
       "index.html",
-      "_card-BHy7WWKg.js"
+      "_card-CfmLpeWJ.js"
     ]
   },
-  "_card-BHy7WWKg.js": {
-    "file": "assets/card-BHy7WWKg.js",
+  "_card-CfmLpeWJ.js": {
+    "file": "assets/card-CfmLpeWJ.js",
     "name": "card",
     "imports": [
       "index.html"
@@ -59,7 +67,7 @@
     "name": "strings.utils"
   },
   "index.html": {
-    "file": "assets/index-qhFbV7ZD.js",
+    "file": "assets/index-RMs5f55z.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
@@ -74,12 +82,14 @@
       "src/pages/disclaimer/Disclaimer.tsx"
     ],
     "css": [
-      "assets/index-CF_JyR9L.css"
+      "assets/index-C6M-5wgo.css"
     ],
     "assets": [
-      "assets/geist-cyrillic-wght-normal-CHSlOQsW.woff2",
-      "assets/geist-latin-ext-wght-normal-DMtmJ5ZE.woff2",
-      "assets/geist-latin-wght-normal-Dm3htQBi.woff2",
+      "assets/geist-cyrillic-ext-wght-normal-DjL33-gN.woff2",
+      "assets/geist-cyrillic-wght-normal-BEAKL7Jp.woff2",
+      "assets/geist-vietnamese-wght-normal-6IgcOCM7.woff2",
+      "assets/geist-latin-ext-wght-normal-DC-KSUi6.woff2",
+      "assets/geist-latin-wght-normal-BgDaEnEv.woff2",
       "assets/manrope-cyrillic-wght-normal-Dvxsihut.woff2",
       "assets/manrope-greek-wght-normal-DL7QRZyv.woff2",
       "assets/manrope-vietnamese-wght-normal-usUDDRr7.woff2",
@@ -88,7 +98,7 @@
     ]
   },
   "src/pages/404/NotFound.tsx": {
-    "file": "assets/NotFound-DRD30ZC5.js",
+    "file": "assets/NotFound-BngiTFVx.js",
     "name": "NotFound",
     "src": "src/pages/404/NotFound.tsx",
     "isDynamicEntry": true,
@@ -97,7 +107,7 @@
     ]
   },
   "src/pages/disclaimer/Disclaimer.tsx": {
-    "file": "assets/Disclaimer-B0mtxn1G.js",
+    "file": "assets/Disclaimer-FbrFkneo.js",
     "name": "Disclaimer",
     "src": "src/pages/disclaimer/Disclaimer.tsx",
     "isDynamicEntry": true,
@@ -106,68 +116,68 @@
     ]
   },
   "src/pages/home/Home.tsx": {
-    "file": "assets/Home-CvzaJB2n.js",
+    "file": "assets/Home-DQNJqkdV.js",
     "name": "Home",
     "src": "src/pages/home/Home.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_TypedRails-CLM04uf-.js",
-      "_card-BHy7WWKg.js"
+      "_TypedRails-CgY-PiVk.js",
+      "_card-CfmLpeWJ.js"
     ]
   },
   "src/pages/movies/Movies.tsx": {
-    "file": "assets/Movies-D6odS5Uo.js",
+    "file": "assets/Movies-Ci46Q5Gq.js",
     "name": "Movies",
     "src": "src/pages/movies/Movies.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_TypedRails-CLM04uf-.js",
-      "_card-BHy7WWKg.js"
+      "_TypedRails-CgY-PiVk.js",
+      "_card-CfmLpeWJ.js"
     ]
   },
   "src/pages/settings/Settings.tsx": {
-    "file": "assets/Settings-BnqgEgRj.js",
+    "file": "assets/Settings-B7kaM5xN.js",
     "name": "Settings",
     "src": "src/pages/settings/Settings.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_card-BHy7WWKg.js",
+      "_card-CfmLpeWJ.js",
       "_strings.utils-DiVwqFSf.js"
     ]
   },
   "src/pages/shows/Shows.tsx": {
-    "file": "assets/Shows-DY_BMNcV.js",
+    "file": "assets/Shows-BM5LVcZR.js",
     "name": "Shows",
     "src": "src/pages/shows/Shows.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_TypedRails-CLM04uf-.js",
-      "_card-BHy7WWKg.js"
+      "_TypedRails-CgY-PiVk.js",
+      "_card-CfmLpeWJ.js"
     ]
   },
   "src/pages/watch/movie/WatchMoviePage.tsx": {
-    "file": "assets/WatchMoviePage-CZbJEF5i.js",
+    "file": "assets/WatchMoviePage-CIpHr7g6.js",
     "name": "WatchMoviePage",
     "src": "src/pages/watch/movie/WatchMoviePage.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_MediaWatchPage-DetvlwoR.js",
+      "_MediaWatchPage-CLlH1g-T.js",
       "_strings.utils-DiVwqFSf.js"
     ]
   },
   "src/pages/watch/tv/WatchTvPage.tsx": {
-    "file": "assets/WatchTvPage-DLlqP_0Z.js",
+    "file": "assets/WatchTvPage-Btckt-vk.js",
     "name": "WatchTvPage",
     "src": "src/pages/watch/tv/WatchTvPage.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_MediaWatchPage-DetvlwoR.js",
+      "_MediaWatchPage-CLlH1g-T.js",
       "_strings.utils-DiVwqFSf.js"
     ]
   }
