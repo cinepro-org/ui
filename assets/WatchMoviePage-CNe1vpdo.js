@@ -1,0 +1,1 @@
+import{j as t}from"./index-CERf64qY.js";import{M as o}from"./MediaWatchPage-C6NXK6Z5.js";import"./index-DA9Y9Mij.js";import"./tabs-BQHIbcOI.js";import"./strings.utils-DiVwqFSf.js";import"./chevron-left-CHkiBMR5.js";function s(){return t.jsx(o,{type:"movie"})}export{s as default};

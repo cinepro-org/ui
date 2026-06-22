@@ -39,50 +39,123 @@
     "file": "assets/manrope-vietnamese-wght-normal-usUDDRr7.woff2",
     "src": "../../node_modules/@fontsource-variable/manrope/files/manrope-vietnamese-wght-normal.woff2"
   },
-  "_MediaWatchPage-C_q3PuaD.js": {
-    "file": "assets/MediaWatchPage-C_q3PuaD.js",
+  "_MediaCard-DMJ7uv_s.js": {
+    "file": "assets/MediaCard-DMJ7uv_s.js",
+    "name": "MediaCard",
+    "imports": [
+      "index.html",
+      "_card-DBDPG9Vs.js"
+    ]
+  },
+  "_MediaWatchPage-C6NXK6Z5.js": {
+    "file": "assets/MediaWatchPage-C6NXK6Z5.js",
     "name": "MediaWatchPage",
     "imports": [
       "index.html",
-      "_strings.utils-DiVwqFSf.js"
+      "_index-DA9Y9Mij.js",
+      "_tabs-BQHIbcOI.js",
+      "_strings.utils-DiVwqFSf.js",
+      "_chevron-left-CHkiBMR5.js"
     ]
   },
-  "_TypedRails-BfPBHBur.js": {
-    "file": "assets/TypedRails-BfPBHBur.js",
+  "_TypedRails-3HCR7RFc.js": {
+    "file": "assets/TypedRails-3HCR7RFc.js",
     "name": "TypedRails",
     "imports": [
       "index.html",
-      "_card-gbiDXtDK.js"
+      "_carousel-Bz6etaJr.js",
+      "_MediaCard-DMJ7uv_s.js"
     ]
   },
-  "_card-gbiDXtDK.js": {
-    "file": "assets/card-gbiDXtDK.js",
+  "_card-DBDPG9Vs.js": {
+    "file": "assets/card-DBDPG9Vs.js",
     "name": "card",
     "imports": [
       "index.html"
+    ]
+  },
+  "_carousel-Bz6etaJr.js": {
+    "file": "assets/carousel-Bz6etaJr.js",
+    "name": "carousel",
+    "imports": [
+      "index.html",
+      "_chevron-left-CHkiBMR5.js"
+    ]
+  },
+  "_chevron-down-DdeYNUMS.js": {
+    "file": "assets/chevron-down-DdeYNUMS.js",
+    "name": "chevron-down",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_chevron-left-CHkiBMR5.js": {
+    "file": "assets/chevron-left-CHkiBMR5.js",
+    "name": "chevron-left",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_empty-jXvNyade.js": {
+    "file": "assets/empty-jXvNyade.js",
+    "name": "empty",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_house-Bp0PooYx.js": {
+    "file": "assets/house-Bp0PooYx.js",
+    "name": "house",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_index-DA9Y9Mij.js": {
+    "file": "assets/index-DA9Y9Mij.js",
+    "name": "index",
+    "imports": [
+      "index.html"
+    ]
+  },
+  "_select-BEsA0t8j.js": {
+    "file": "assets/select-BEsA0t8j.js",
+    "name": "select",
+    "imports": [
+      "index.html",
+      "_chevron-down-DdeYNUMS.js",
+      "_index-DA9Y9Mij.js"
     ]
   },
   "_strings.utils-DiVwqFSf.js": {
     "file": "assets/strings.utils-DiVwqFSf.js",
     "name": "strings.utils"
   },
+  "_tabs-BQHIbcOI.js": {
+    "file": "assets/tabs-BQHIbcOI.js",
+    "name": "tabs",
+    "imports": [
+      "index.html"
+    ]
+  },
   "index.html": {
-    "file": "assets/index-DO2JweCE.js",
+    "file": "assets/index-CERf64qY.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
+      "src/components/media/drawer/MediaDrawer.tsx",
       "src/pages/home/Home.tsx",
       "src/pages/movies/Movies.tsx",
       "src/pages/watch/movie/WatchMoviePage.tsx",
       "src/pages/watch/tv/WatchTvPage.tsx",
       "src/pages/shows/Shows.tsx",
+      "src/pages/discover/Discover.tsx",
       "src/pages/404/NotFound.tsx",
       "src/pages/settings/Settings.tsx",
       "src/pages/disclaimer/Disclaimer.tsx"
     ],
     "css": [
-      "assets/index-DmUHA76B.css"
+      "assets/index-CTXUvw2y.css"
     ],
     "assets": [
       "assets/geist-cyrillic-ext-wght-normal-DjL33-gN.woff2",
@@ -97,88 +170,144 @@
       "assets/manrope-latin-wght-normal-DHIcAJRg.woff2"
     ]
   },
+  "src/components/media/drawer/MediaDrawer.tsx": {
+    "file": "assets/MediaDrawer-Gqvl5CPL.js",
+    "name": "MediaDrawer",
+    "src": "src/components/media/drawer/MediaDrawer.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_tabs-BQHIbcOI.js",
+      "_carousel-Bz6etaJr.js",
+      "_select-BEsA0t8j.js",
+      "_chevron-left-CHkiBMR5.js",
+      "_chevron-down-DdeYNUMS.js",
+      "_index-DA9Y9Mij.js"
+    ]
+  },
   "src/pages/404/NotFound.tsx": {
-    "file": "assets/NotFound-BFR1LJma.js",
+    "file": "assets/NotFound-BkUNa9r_.js",
     "name": "NotFound",
     "src": "src/pages/404/NotFound.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "index.html"
+      "index.html",
+      "_house-Bp0PooYx.js"
     ]
   },
   "src/pages/disclaimer/Disclaimer.tsx": {
-    "file": "assets/Disclaimer-B2_xCRi7.js",
+    "file": "assets/Disclaimer-BcQgcC_i.js",
     "name": "Disclaimer",
     "src": "src/pages/disclaimer/Disclaimer.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "index.html"
+      "index.html",
+      "_house-Bp0PooYx.js"
+    ]
+  },
+  "src/pages/discover/Discover.tsx": {
+    "file": "assets/Discover-BJThqqfc.js",
+    "name": "Discover",
+    "src": "src/pages/discover/Discover.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html",
+      "_MediaCard-DMJ7uv_s.js",
+      "_empty-jXvNyade.js",
+      "_chevron-down-DdeYNUMS.js",
+      "_card-DBDPG9Vs.js"
     ]
   },
   "src/pages/home/Home.tsx": {
-    "file": "assets/Home-BA7fP0mm.js",
+    "file": "assets/Home-Dm6i1jdw.js",
     "name": "Home",
     "src": "src/pages/home/Home.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_TypedRails-BfPBHBur.js",
-      "_card-gbiDXtDK.js"
+      "_TypedRails-3HCR7RFc.js",
+      "_carousel-Bz6etaJr.js",
+      "_chevron-left-CHkiBMR5.js",
+      "_MediaCard-DMJ7uv_s.js",
+      "_card-DBDPG9Vs.js"
     ]
   },
   "src/pages/movies/Movies.tsx": {
-    "file": "assets/Movies-Dt9mmhgS.js",
+    "file": "assets/Movies-DJQYK5pE.js",
     "name": "Movies",
     "src": "src/pages/movies/Movies.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_TypedRails-BfPBHBur.js",
-      "_card-gbiDXtDK.js"
+      "_TypedRails-3HCR7RFc.js",
+      "_select-BEsA0t8j.js",
+      "_carousel-Bz6etaJr.js",
+      "_chevron-left-CHkiBMR5.js",
+      "_MediaCard-DMJ7uv_s.js",
+      "_card-DBDPG9Vs.js",
+      "_chevron-down-DdeYNUMS.js",
+      "_index-DA9Y9Mij.js"
     ]
   },
   "src/pages/settings/Settings.tsx": {
-    "file": "assets/Settings-D4C_xvN8.js",
+    "file": "assets/Settings-CX37NSaA.js",
     "name": "Settings",
     "src": "src/pages/settings/Settings.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_card-gbiDXtDK.js",
-      "_strings.utils-DiVwqFSf.js"
+      "_tabs-BQHIbcOI.js",
+      "_card-DBDPG9Vs.js",
+      "_index-DA9Y9Mij.js",
+      "_select-BEsA0t8j.js",
+      "_strings.utils-DiVwqFSf.js",
+      "_empty-jXvNyade.js",
+      "_chevron-down-DdeYNUMS.js"
     ]
   },
   "src/pages/shows/Shows.tsx": {
-    "file": "assets/Shows-CFpgZJx_.js",
+    "file": "assets/Shows-DJhV7F_R.js",
     "name": "Shows",
     "src": "src/pages/shows/Shows.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_TypedRails-BfPBHBur.js",
-      "_card-gbiDXtDK.js"
+      "_TypedRails-3HCR7RFc.js",
+      "_select-BEsA0t8j.js",
+      "_carousel-Bz6etaJr.js",
+      "_chevron-left-CHkiBMR5.js",
+      "_MediaCard-DMJ7uv_s.js",
+      "_card-DBDPG9Vs.js",
+      "_chevron-down-DdeYNUMS.js",
+      "_index-DA9Y9Mij.js"
     ]
   },
   "src/pages/watch/movie/WatchMoviePage.tsx": {
-    "file": "assets/WatchMoviePage-B2UHvLjR.js",
+    "file": "assets/WatchMoviePage-CNe1vpdo.js",
     "name": "WatchMoviePage",
     "src": "src/pages/watch/movie/WatchMoviePage.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_MediaWatchPage-C_q3PuaD.js",
-      "_strings.utils-DiVwqFSf.js"
+      "_MediaWatchPage-C6NXK6Z5.js",
+      "_index-DA9Y9Mij.js",
+      "_tabs-BQHIbcOI.js",
+      "_strings.utils-DiVwqFSf.js",
+      "_chevron-left-CHkiBMR5.js"
     ]
   },
   "src/pages/watch/tv/WatchTvPage.tsx": {
-    "file": "assets/WatchTvPage-DO4U6SvR.js",
+    "file": "assets/WatchTvPage-dzEdnlRi.js",
     "name": "WatchTvPage",
     "src": "src/pages/watch/tv/WatchTvPage.tsx",
     "isDynamicEntry": true,
     "imports": [
       "index.html",
-      "_MediaWatchPage-C_q3PuaD.js",
-      "_strings.utils-DiVwqFSf.js"
+      "_MediaWatchPage-C6NXK6Z5.js",
+      "_index-DA9Y9Mij.js",
+      "_tabs-BQHIbcOI.js",
+      "_strings.utils-DiVwqFSf.js",
+      "_chevron-left-CHkiBMR5.js"
     ]
   }
 }
